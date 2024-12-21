@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+.spa{ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    width:1400px;
+    height: 600px;
+  }
+
+
+  .image-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .image-text-section .image {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-text-section .text {
+    width: 50%;
+  }
+  
+  .image-text-section h2 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .image-text-section p {
+    margin: 0;
+    color: #555;
+    line-height: 1.8;
+  }
+  @media (max-width: 768px) {
+    .image-text-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .image-text-section .image, 
+    .image-text-section .text {
+      width: 100%;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  
+  .faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background: #f7f7f7;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-question:hover {
+    background: #eaeaea;
+  }
+  
+  .arrow {
+    font-size: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-left: 15px;
+    color: #555;
+  }
+  
+  .faq-answer p {
+    margin: 10px 0;
+  }
+  .contact{
+    background-color: black;
+    width:1400px;
+    height: 600px;
+    display: flex;
+    padding: 100px;
+    gap:200px;
+  }
+
+ 
+.container {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .image-text-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-text-section img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .spa1 h1 {
+        font-size: 24px;
+    }
+
+    .spa1 p {
+        font-size: 14px;
+    }
+
+    .testimonial .box {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .image-text-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-text-section .text {
+        margin: 20px 0;
+    }
+
+    .spa1 h1 {
+        font-size: 28px;
+    }
+
+    .spa1 p {
+        font-size: 16px;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .spa1 h1 {
+        font-size: 20px;
+    }
+
+    .spa1 p {
+        font-size: 12px;
+    }
+
+    .testimonial .box img {
+        width: 100%;
+    }
+
+    .faq-section {
+        padding: 10px;
+    }
+
+    
+  }
